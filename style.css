@@ -1,42 +1,36 @@
 body {
-    background-color: #0d1b2a; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     margin: 0;
-    font-family: serif;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 .container {
-    background-color: #e0e0e0;
-    width: 500px;
-    height: 550px;
-    padding: 24px;
+    background-color: lightgrey;
+    height: 100vh;
+    padding: 50px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
 }
 
 .box {
     width: 100%;
-    padding: 4px 8px;
-    font-size: 12px;
     box-sizing: border-box;
+    font-size: 12px;
+    padding: 2px 4px;
 }
 
-.box-1 {
-    background-color: #ffa500; 
-    height: 25%; 
-}
-
-.box-2 {
-    background-color: #f0e68c;
+.box-orange {
+    background-color: orange;
     height: 25%;
 }
 
-.box-3 {
-    background-color: #6495ed; 
+.box-khaki {
+    background-color: khaki;
+    height: 25%;
+}
+
+.box-blue {
+    background-color: cornflowerblue;
     height: 50%;
 }
